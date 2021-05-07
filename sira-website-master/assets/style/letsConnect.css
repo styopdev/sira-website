@@ -1,0 +1,1760 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Bitter';
+    font-size: 72px;
+    font-weight: 600;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    font-family: 'Bitter';
+    font-size: 18px;
+    margin: 9px 0 5px 0;
+    font-weight: 600;
+    color: #2D2D2D;
+}
+
+.content{
+    padding: 96px 134px 96px 134px;
+}
+
+
+@media (max-width: 1500px) {
+    h2 {
+        font-family: 'Bitter';
+        font-size: 32px;
+        font-weight: 600;
+        color: #333333;
+        padding: 0;
+        margin: 0;
+    }
+    label {
+        font-family: 'Bitter';
+        font-size: 18px;
+        margin: 9px 0 5px 0;
+        font-weight: 600;
+        color: #2D2D2D;
+    }
+    .content{
+        padding: 34px 78px 96px 78px !important;
+    }
+}
+@media (max-width: 1024px) {
+    h2 {
+        font-family: 'Bitter';
+        font-size: 26px;
+        font-weight: 600;
+        color: #333333;
+        padding: 0;
+        margin: 0;
+    }
+    label {
+        font-family: 'Bitter';
+        font-size: 16px;
+        margin: 9px 0 5px 0;
+        font-weight: 600;
+        color: #2D2D2D;
+    }
+    .content{
+        padding: 26px 34px 44px 34px !important;
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-family: 'Bitter';
+        font-size: 22px;
+        font-weight: 600;
+        color: #333333;
+        padding: 0;
+        margin: 0;
+    }
+    label {
+        font-family: 'Bitter';
+        font-size: 14px;
+        margin: 9px 0 5px 0;
+        font-weight: 600;
+        color: #2D2D2D;
+    }
+    .content{
+        padding: 26px 34px 44px 34px !important;
+    }
+}
+@media (max-width: 500px) {
+    h2 {
+        font-family: 'Bitter';
+        font-size: 18px;
+        font-weight: 600;
+        color: #333333;
+        padding: 0;
+        margin: 0;
+    }
+    label {
+        font-family: 'Bitter';
+        font-size: 12px;
+        margin: 9px 0 5px 0;
+        font-weight: 600;
+        color: #2D2D2D;
+    }
+    .content{
+        padding: 26px 34px 44px 34px !important;
+    }
+}
+
+
+
+/* Header Style Css */
+
+#header {
+    width: 100%;
+    -webkit-box-shadow: 0px 25px 42px -18px rgb(0 0 0 / 74%);
+    box-shadow: 0px 14px 23px -13px rgb(0 0 0 / 36%);
+    position: relative;
+    z-index: 10;
+}
+
+#header .header-content {
+    display: flex;
+    flex-direction: row;
+    padding: 34px 96px 34px 96px;
+    background-color: #f1f3f4;
+}
+
+#header .header-content .logo {
+    display: flex;
+    justify-content: start;
+    flex-basis: 30%;
+}
+
+#header .header-content .logo a {
+    font-family: Ruthie;
+    font-size: 64px;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+#header .header-content .menu {
+    display: block;
+    flex-basis: 44%;
+    align-self: center;
+}
+
+#header .header-content .menu .menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#header .header-content .menu .menu-list .menu-item a:hover {
+    color: #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+}
+
+#header .header-content .menu .menu-list .menu-item a {
+    text-decoration: none;
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D2D2D;
+}
+
+#header .header-content .social {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 26%;
+    align-self: center;
+}
+
+#header .header-content .social a:nth-child(1) {
+    margin-right: 4%;
+}
+
+#header .header-content .social a:nth-child(2) {
+    margin-right: 4%;
+}
+
+#header .header-content .social a .facebook {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 309px 306px;
+}
+
+#header .header-content .social a .instagram {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 628px 223px;
+}
+
+#header .header-content .social a .gmail {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 69px 305px;
+}
+#header .header-content .mobile-menu{
+    display: none;
+}
+
+
+@media (max-width: 1500px) {
+    #header {
+        width: 100%;
+        -webkit-box-shadow: 0px 25px 42px -18px rgb(0 0 0 / 74%);
+        box-shadow: 0px 14px 23px -13px rgb(0 0 0 / 36%);
+        position: relative;
+        z-index: 10;
+    }
+
+    #header .header-content {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 72px 30px 72px;
+        background-color: #f1f3f4;
+    }
+
+    #header .header-content .logo {
+        display: flex;
+        justify-content: start;
+        flex-basis: 30%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    #header .header-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 56px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .menu {
+        display: block;
+        flex-basis: 42%;
+        align-self: center;
+    }
+
+    #header .header-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 16px;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .social {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 28%;
+        align-self: center;
+    }
+
+    #header .header-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a .facebook {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 411px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #header .header-content .social a .instagram {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 357px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #header .header-content .social a .gmail {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 258px 412px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #header .header-content .mobile-menu{
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    #header {
+        width: 100%;
+        -webkit-box-shadow: 0px 25px 42px -18px rgb(0 0 0 / 74%);
+        box-shadow: 0px 14px 23px -13px rgb(0 0 0 / 36%);
+        position: relative;
+        z-index: 10;
+    }
+
+    #header .header-content {
+        display: flex;
+        flex-direction: row;
+        padding: 22px 52px 22px 52px;
+        background-color: #f1f3f4;
+    }
+
+    #header .header-content .logo {
+        display: flex;
+        justify-content: start;
+        flex-basis: 30%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    /*#header .header-content .logo a img{*/
+    /*    width: 200px;*/
+    /*}*/
+    #header .header-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 42px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .menu {
+        display: block;
+        flex-basis: 44%;
+        align-self: center;
+    }
+
+    #header .header-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 14px;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .social {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 26%;
+        align-self: center;
+    }
+
+    #header .header-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #header .header-content .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #header .header-content .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #header .header-content .mobile-menu{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #header {
+        width: 100%;
+        -webkit-box-shadow: 0px 25px 42px -18px rgb(0 0 0 / 74%);
+        box-shadow: 0px 14px 23px -13px rgb(0 0 0 / 36%);
+        position: relative;
+        z-index: 10;
+    }
+
+    #header .header-content {
+        display: flex;
+        flex-direction: row;
+        padding: 12px 18px 12px 18px;
+        background-color: #f1f3f4;
+    }
+
+    #header .header-content .logo {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    /*#header .header-content .logo a img{*/
+    /*    width: 200px;*/
+    /*}*/
+    #header .header-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 32px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .menu {
+        display: none;
+        flex-basis: 44%;
+        align-self: center;
+    }
+
+    #header .header-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #header .header-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 14px;
+        color: #2D2D2D;
+    }
+
+    #header .header-content .social {
+        display: none;
+        /*display: flex;*/
+        justify-content: flex-end;
+        flex-basis: 26%;
+        align-self: center;
+    }
+
+    #header .header-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #header .header-content .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #header .header-content .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #header .header-content .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #header .header-content .mobile-menu{
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        width: 95%;
+    }
+    #header .header-content .mobile-menu img{
+        width: 38px;
+    }
+}
+
+/* blog Style Css*/
+#lets-connect {
+    display: flex;
+    flex-direction: column;
+    background-color: #faf9f7;
+}
+
+#lets-connect .title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lets-connect .title span {
+    font-family: 'Bitter';
+    font-size: 72px;
+    line-height: 5.3em;
+    font-weight: 600;
+    color: #333333;
+}
+
+#lets-connect .lets-connect-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #faf9f7;
+    justify-content: center;
+    padding-top: 118px;
+
+}
+
+#lets-connect .lets-connect-content .lets-connect-photo img {
+    width: 100%;
+    height: 600px;
+}
+
+#lets-connect .lets-connect-content .lets-connect-photo {
+    display: block;
+    width: 50%;
+    background-image: url("../images/lets-connect/lets-connect.jpg");
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}
+
+#lets-connect .lets-connect-content .input-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /*border: 1px solid;*/
+}
+#lets-connect .lets-connect-content .input-list .social {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#lets-connect .lets-connect-content .input-list .social a .facebook {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 309px 306px;
+}
+
+#lets-connect .lets-connect-content .input-list .social a .instagram {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 628px 223px;
+}
+
+#lets-connect .lets-connect-content .input-list .social a .gmail {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 69px 305px;
+}
+
+
+
+
+#lets-connect .lets-connect-content .input-list .contact {
+    margin-top: 48px;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name input {
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name {
+    display: flex;
+    flex-direction: column;
+    /*padding-top:32px;*/
+    flex-basis: 45%;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name input {
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .email {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .email input {
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .message {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+#lets-connect .lets-connect-content .input-list .contact .contact-list .message textarea {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#lets-connect .lets-connect-content .input-list .send {
+    margin-top: 42px;
+}
+
+#lets-connect .lets-connect-content .input-list .send a {
+    text-decoration: none;
+}
+
+#lets-connect .lets-connect-content .input-list .send a button {
+    font-family: "Roboto Light";
+    font-weight: 400;
+    font-size: 26px;
+    padding: 2% 4% 2% 4%;
+    background-color: #d99c52;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+@media (max-width: 1500px) {
+    #lets-connect {
+        display: flex;
+        flex-direction: column;
+        background-color: #faf9f7;
+    }
+
+    #lets-connect .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #lets-connect .title span {
+        font-family: 'Bitter';
+        font-size: 72px;
+        line-height: 5.3em;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    #lets-connect .lets-connect-content {
+        display: flex;
+        flex-direction: row;
+        background-color: #faf9f7;
+        justify-content: center;
+        padding-top: 118px;
+
+    }
+
+
+    #lets-connect .lets-connect-content .lets-connect-photo img {
+        width: 100%;
+        height: 600px;
+    }
+
+    #lets-connect .lets-connect-content .lets-connect-photo {
+        display: block;
+        width: 50%;
+        background-image: url("../images/lets-connect/lets-connect.jpg");
+        background-repeat: no-repeat;
+        margin-left: 110px;
+    }
+
+    #lets-connect .lets-connect-content .input-list {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /*border: 1px solid;*/
+    }
+    #lets-connect .lets-connect-content .input-list .social {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        justify-content: space-between;
+        width: 145px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .facebook {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 411px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .instagram {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 357px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .gmail {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 258px 412px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+
+
+
+    #lets-connect .lets-connect-content .input-list .contact {
+        margin-top: 48px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 45%;
+    }
+
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name {
+        display: flex;
+        flex-direction: column;
+        /*padding-top:32px;*/
+        flex-basis: 45%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message textarea {
+        width: 100%;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send {
+        margin-top: 42px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a {
+        text-decoration: none;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a button {
+        font-family: "Roboto Light";
+        font-weight: 400;
+        font-size: 26px;
+        padding: 2% 4% 2% 4%;
+        background-color: #d99c52;
+        border: none;
+        color: #FFFFFF;
+    }
+
+}
+@media (max-width: 1024px) {
+    #lets-connect {
+        display: flex;
+        flex-direction: column;
+        background-color: #faf9f7;
+    }
+
+    #lets-connect .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #lets-connect .title span {
+        font-family: 'Bitter';
+        font-size: 72px;
+        line-height: 5.3em;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    #lets-connect .lets-connect-content {
+        display: flex;
+        flex-direction: row;
+        background-color: #faf9f7;
+        justify-content: center;
+        padding-top: 118px;
+
+    }
+
+    #lets-connect .lets-connect-content .lets-connect-photo img {
+        width: 100%;
+        height: 600px;
+    }
+
+    #lets-connect .lets-connect-content .lets-connect-photo {
+        display: none;
+        width: 50%;
+        background-image: url("../images/lets-connect/lets-connect.jpg");
+        background-repeat: no-repeat;
+        margin-left: 90px;
+    }
+
+    #lets-connect .lets-connect-content .input-list {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /*border: 1px solid;*/
+    }
+    #lets-connect .lets-connect-content .input-list .social {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        justify-content: space-between;
+        width: 110px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+
+
+
+    #lets-connect .lets-connect-content .input-list .contact {
+        margin-top: 48px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 45%;
+    }
+
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name {
+        display: flex;
+        flex-direction: column;
+        /*padding-top:32px;*/
+        flex-basis: 45%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message textarea {
+        width: 100%;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send {
+        margin-top: 42px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a {
+        text-decoration: none;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a button {
+        font-family: "Roboto Light";
+        font-weight: 400;
+        font-size: 26px;
+        padding: 2% 4% 2% 4%;
+        background-color: #d99c52;
+        border: none;
+        color: #FFFFFF;
+    }
+}
+@media (max-width: 768px) {
+    #lets-connect {
+        display: flex;
+        flex-direction: column;
+        background-color: #faf9f7;
+    }
+
+    #lets-connect .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #lets-connect .title span {
+        font-family: 'Bitter';
+        font-size: 72px;
+        line-height: 5.3em;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    #lets-connect .lets-connect-content {
+        display: flex;
+        flex-direction: row;
+        background-color: #faf9f7;
+        justify-content: center;
+        padding-top: 118px;
+
+    }
+
+    #lets-connect .lets-connect-content .lets-connect-photo img {
+        width: 100%;
+        height: 600px;
+    }
+
+    #lets-connect .lets-connect-content .lets-connect-photo {
+        display: none;
+        width: 50%;
+        background-image: url("../images/lets-connect/lets-connect.jpg");
+        background-repeat: no-repeat;
+        margin-left: 70px;
+    }
+
+    #lets-connect .lets-connect-content .input-list {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /*border: 1px solid;*/
+    }
+    #lets-connect .lets-connect-content .input-list .social {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        justify-content: space-between;
+        width: 110px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #lets-connect .lets-connect-content .input-list .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+
+
+
+    #lets-connect .lets-connect-content .input-list .contact {
+        margin-top: 48px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 45%;
+    }
+
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .first-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name {
+        display: flex;
+        flex-direction: column;
+        /*padding-top:32px;*/
+        flex-basis: 45%;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .first-last-name .last-name input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .email input {
+        width: 100%;
+        height: 38px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .contact .contact-list .message textarea {
+        width: 100%;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send {
+        margin-top: 42px;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a {
+        text-decoration: none;
+    }
+
+    #lets-connect .lets-connect-content .input-list .send a button {
+        font-family: "Roboto Light";
+        font-weight: 400;
+        font-size: 26px;
+        padding: 2% 4% 2% 4%;
+        background-color: #d99c52;
+        border: none;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style Css*/
+#footer {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+#footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    padding: 34px 96px 34px 96px;
+    background-color: #f1f3f4;
+}
+
+#footer .footer-content .logo {
+    display: flex;
+    justify-content: start;
+    flex-basis: 30%;
+}
+
+#footer .footer-content .logo a {
+    font-family: Ruthie;
+    font-size: 64px;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+#footer .footer-content .menu {
+    display: block;
+    flex-basis: 44%;
+    align-self: center;
+}
+
+#footer .footer-content .menu .menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .footer-content .menu .menu-list .menu-item a:hover {
+    color: #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+}
+
+#footer .footer-content .menu .menu-list .menu-item a {
+    text-decoration: none;
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D2D2D;
+}
+
+#footer .footer-content .social {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 26%;
+    align-self: center;
+}
+
+#footer .footer-content .social a:nth-child(1) {
+    margin-right: 4%;
+}
+
+#footer .footer-content .social a:nth-child(2) {
+    margin-right: 4%;
+}
+
+#footer .footer-content .social a .facebook {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 309px 306px;
+}
+
+#footer .footer-content .social a .instagram {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 628px 223px;
+}
+
+#footer .footer-content .social a .gmail {
+    width: 58px;
+    height: 58px;
+    background-image: url('../images/lets-connect/socials.png');
+    background-position: 69px 305px;
+}
+#footer .footer-content .mobile-menu{
+    display: none;
+}
+
+#footer .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 52px 8px 52px;
+    background-color: #e2e2e2;
+}
+
+#footer .copyright span {
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size: 10px;
+    color: #2D2D2D;
+}
+
+
+
+@media (max-width: 1500px) {
+    #footer {
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+
+    #footer .footer-content {
+        display: flex;
+        flex-direction: row;
+        padding: 30px 72px 30px 72px;
+        background-color: #f1f3f4;
+    }
+
+    #footer .footer-content .logo {
+        display: flex;
+        justify-content: start;
+        flex-basis: 30%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    #footer .footer-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 56px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .menu {
+        display: block;
+        flex-basis: 42%;
+        align-self: center;
+    }
+
+    #footer .footer-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 16px;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .social {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 28%;
+        align-self: center;
+    }
+
+    #footer .footer-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a .facebook {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 411px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #footer .footer-content .social a .instagram {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 416px 357px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #footer .footer-content .social a .gmail {
+        width: 42px;
+        height: 42px;
+        background-size: 211px;
+        background-position: 258px 412px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #footer .footer-content .mobile-menu{
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    #footer {
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+
+    #footer .footer-content {
+        display: flex;
+        flex-direction: row;
+        padding: 22px 52px 22px 52px;
+        background-color: #f1f3f4;
+    }
+
+    #footer .footer-content .logo {
+        display: flex;
+        justify-content: start;
+        flex-basis: 30%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    /*#footer .footer-content .logo a img{*/
+    /*    width: 200px;*/
+    /*}*/
+    #footer .footer-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 42px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .menu {
+        display: block;
+        flex-basis: 44%;
+        align-self: center;
+    }
+
+    #footer .footer-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 14px;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .social {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 26%;
+        align-self: center;
+    }
+
+    #footer .footer-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #footer .footer-content .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #footer .footer-content .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #footer .footer-content .mobile-menu{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #footer {
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+
+    #footer .footer-content {
+        display: flex;
+        flex-direction: row;
+        padding: 12px 18px 12px 18px;
+        background-color: #f1f3f4;
+    }
+
+    #footer .footer-content .logo {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        /*border: 1px solid #CCCCCC;*/
+    }
+
+    /*#footer .footer-content .logo a img{*/
+    /*    width: 200px;*/
+    /*}*/
+    #footer .footer-content .logo a {
+
+        font-family: Ruthie;
+        font-size: 32px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .menu {
+        display: none;
+        flex-basis: 44%;
+        align-self: center;
+    }
+
+    #footer .footer-content .menu .menu-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a:hover {
+        color: #5d5d5d;
+        border-bottom: 1px solid #5d5d5d;
+    }
+
+    #footer .footer-content .menu .menu-list .menu-item a {
+        text-decoration: none;
+        font-family: "Bitter";
+        font-weight: 400;
+        font-size: 14px;
+        color: #2D2D2D;
+    }
+
+    #footer .footer-content .social {
+        display: none;
+        /*display: flex;*/
+        justify-content: flex-end;
+        flex-basis: 26%;
+        align-self: center;
+    }
+
+    #footer .footer-content .social a:nth-child(1) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a:nth-child(2) {
+        margin-right: 4%;
+    }
+
+    #footer .footer-content .social a .facebook {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 670px 496px;
+        background-image: url(../images/lets-connect/socials.png);
+    }
+
+    #footer .footer-content .social a .instagram {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 500px 454px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+
+    #footer .footer-content .social a .gmail {
+        width: 32px;
+        height: 32px;
+        background-size: 169px;
+        background-position: 206px 497px;
+        background-image: url('../images/lets-connect/socials.png');
+    }
+    #footer .footer-content .mobile-menu{
+        display: none;
+        justify-content: flex-end;
+        position: absolute;
+        width: 95%;
+    }
+    #footer .footer-content .mobile-menu img{
+        width: 38px;
+    }
+}
